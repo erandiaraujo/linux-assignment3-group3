@@ -1,0 +1,73 @@
+[
+  {
+    "command": "ls",
+    "description": "List directory contents",
+    "syntax": "ls [options] [directory]",
+    "category": "File Management",
+    "examples": [
+      "ls -l",
+      "ls -a",
+      "ls /home/user"
+    ]
+  },
+  {
+    "command": "cd",
+    "description": "Change directory",
+    "syntax": "cd [directory]",
+    "category": "Navigation",
+    "examples": [
+      "cd /home/user",
+      "cd ..",
+      "cd ~"
+    ]
+  },
+  {
+    "command": "pwd",
+    "description": "Print working directory",
+    "syntax": "pwd",
+    "category": "Navigation",
+    "examples": [
+      "pwd"
+    ]
+  },
+  {
+    "command": "cp",
+    "description": "Copy files and directories",
+    "syntax": "cp [options] source destination",
+    "category": "File Management",
+    "examples": [
+      "cp file1.txt file2.txt",
+      "cp -r dir1 dir2"
+    ]
+  },
+  {
+    "command": "mv",
+    "description": "Move or rename files and directories",
+    "syntax": "mv [options] source destination",
+    "category": "File Management",
+    "examples": [
+      "mv oldname.txt newname.txt",
+      "mv file.txt /home/user/"
+    ]
+  },
+  {
+    "command": "rm",
+    "description": "Remove files or directories",
+    "syntax": "rm [options] file/directory",
+    "category": "File Management",
+    "examples": [
+      "rm file.txt",
+      "rm -r directory"
+    ]
+  },
+  {
+    "command": "grep",
+    "description": "Search text using patterns",
+    "syntax": "grep [options] pattern [file]",
+    "category": "Text Processing",
+    "examples": [
+      "grep 'hello' file.txt",
+      "grep -r 'pattern' directory/"
+    ]
+  }
+]
