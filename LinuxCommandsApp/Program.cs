@@ -47,8 +47,6 @@ namespace LinuxCommandsApp
                 Console.WriteLine($"Error: {ex.Message}");
             }
 
-            Console.WriteLine("\nPress any key to exit...");
-            Console.ReadKey();
         }
 
         static string GetJsonFilePath()
